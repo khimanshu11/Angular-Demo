@@ -1,0 +1,41 @@
+[
+   {
+      "name":"Timex",
+      "description":"Timex TW2P44300 Analog Watch - For Men",
+      "qualities":8,
+      "price":2110.50,
+      "rarity":7,
+      "color":"#CCC",
+      "faces":14,
+      "image":"../images/watch-01.jpg",
+      "reviews":[
+
+      ]
+   },
+   {
+      "name":"Casio",
+      "description":"Casio A777 Enticer Analog Watch - For Men.",
+      "qualities":9,
+      "price":4522.90,
+      "rarity":6,
+      "color":"#EEE",
+      "faces":12,
+      "image":"../images/watch-02.jpg",
+      "reviews":[
+
+      ]
+   },
+   {
+      "name":"Fastrack",
+      "description":"Fastrack 9463AL07 Explorer Analog Watch - For Men",
+      "qualities":70,
+      "price":1100,
+      "rarity":2,
+      "color":"#000",
+      "faces":6,
+      "image":"../images/watch-03.jpg",
+      "reviews":[
+
+      ]
+   }
+]

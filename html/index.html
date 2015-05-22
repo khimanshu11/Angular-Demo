@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="gemStore">
+   <head>
+      <link rel = "stylesheet" type = "text/css" href = "../bootstrap/css/bootstrap.min.css"/>
+      <link rel="stylesheet" type="text/css" href="../css/donutChart.css">
+      <link rel = "stylesheet" type = "text/css" href = "../css/watchshop.css"/>
+      <script type="text/javascript" src="../js/angular.min.js"></script>
+      <script type="text/javascript" src="../js/app.js"></script>
+      <script type="text/javascript" src="../js/products.js"></script>
+      <script src="../js/d3.min.js"></script>
+   </head>
+   <body ng-controller="StoreController as store">
+      <!--  Store Header  -->
+      <header>
+         <h1 class="text-center">watchshop</h1>
+      </header>
+      <!--  Products Container  -->
+      <div class="list-group">
+         <!--  Product Container  -->
+         <div class="list-group-item block" ng-repeat="product in store.products">
+            <h3>{{product.name}} <em class="pull-right">{{product.price | currency}}</em></h3>
+            <!-- Image Gallery  -->
+            <product-gallery></product-gallery>
+            <!-- Product Tabs  -->
+            <product-tabs></product-tabs>
+         </div>
+      </div>
+      <div>
+         <h2>Available Stock</h2>
+      </div>
+      <div id = "chart">
+      </div>
+      <script type="text/javascript" src = "../js/donutChart.js"></script>
+   </body>
+</html>

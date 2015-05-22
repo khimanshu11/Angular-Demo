@@ -1,0 +1,13 @@
+.block{
+	width:25%;
+	min-height:500px;
+	height: 500px;
+	max-height:700px;
+	float: left;
+	margin-left: 30px;
+	overflow:auto;
+}
+
+h2{
+	padding-left: 20px;
+}
